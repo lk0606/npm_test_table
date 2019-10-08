@@ -80,6 +80,7 @@
         </a>
       </li>
     </ul>
+    <c-table></c-table>
   </div>
 </template>
 

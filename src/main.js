@@ -6,6 +6,10 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+// import cTable from '../packages/table/src'
+import cTable from 'iscroll_table'
+Vue.use(cTable)
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

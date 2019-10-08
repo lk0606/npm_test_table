@@ -1,0 +1,23 @@
+{
+  "name": "iscroll_table",
+  "version": "1.0.1",
+  "description": "a table component for test npm packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lk0606/npm_test_table.git"
+  },
+  "keywords": [
+    "mobile table",
+    "table iscroll"
+  ],
+  "author": "liukun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lk0606/npm_test_table/issues"
+  },
+  "homepage": "https://lk0606.github.io/npm_test_table/dist/index.html"
+}
