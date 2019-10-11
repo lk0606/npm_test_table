@@ -65,8 +65,8 @@
 </template>
 
 <script>
-import { createIScroller } from "../../../lib/iscroll-probe";
-import { table } from '../../../static/data/table-data'
+import { createIScroller } from "./iscroll-probe";
+import { table } from './table-data'
 
 export default {
   name: 'c-table',

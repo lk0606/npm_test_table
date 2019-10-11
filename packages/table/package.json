@@ -1,6 +1,6 @@
 {
   "name": "iscroll_table",
-  "version": "1.0.2",
+  "version": "1.0.8",
   "description": "a table component for test npm packages",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,15 @@
   "bugs": {
     "url": "https://github.com/lk0606/npm_test_table/issues"
   },
-  "homepage": "https://lk0606.github.io/npm_test_table/dist/index.html"
+  "homepage": "https://lk0606.github.io/npm_test_table/dist/index.html",
+  "peerDependencies": {
+    "vue": "^2.5.2"
+  },
+  "dependencies": {
+    "iscroll": "^5.2.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0"
+  }
 }
