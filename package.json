@@ -1,13 +1,12 @@
 {
   "name": "iscroll_table",
-  "version": "1.0.10-alpha.1",
+  "version": "1.0.10",
   "description": "a table component for test npm packages",
   "main": "index.js",
   "files": [
     "src"
   ],
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/lk0606/npm_test_table.git"
