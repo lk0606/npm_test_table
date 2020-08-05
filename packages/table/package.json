@@ -1,6 +1,6 @@
 {
   "name": "iscroll_table",
-  "version": "1.0.8",
+  "version": "1.0.10-alpha.1",
   "description": "a table component for test npm packages",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,10 @@
     "table iscroll"
   ],
   "author": "liukun",
-  "license": "ISC",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/lk0606/npm_test_table/issues"
   },
