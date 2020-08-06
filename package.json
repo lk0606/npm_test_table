@@ -1,12 +1,14 @@
 {
   "name": "iscroll_table",
-  "version": "1.0.10",
+  "version": "1.0.9",
   "description": "a table component for test npm packages",
   "main": "index.js",
   "files": [
     "src"
   ],
-  "scripts": {},
+  "scripts": {
+    "release": "standard-version"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/lk0606/npm_test_table.git"
@@ -32,6 +34,7 @@
   },
   "devDependencies": {
     "node-sass": "^4.9.0",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "standard-version": "^8.0.2"
   }
 }
