@@ -1,11 +1,12 @@
 language: node_js
 node_js:
-    - lts/*
+- lts/*
 deploy:
   provider: npm
-  email: "$EMAIL"
-  api_key: "$NPM_TOKEN"
-  skip_cleanup: true
+  email: lklk06@163.com
+  api_key:
+    secure: EA0ufsXjxy2SuHo24UvQyoX/EhOeUY+258q9AajYkl5eYCPD7afVC42vta9WV7nROP78CMM6dzaDBFtYsEMjnJ7L9WybWyh2aPyorWS4aOVcbOUEmxwzfhf/LVBx/SM4TwgTmxu90Hzr7lw4Et/ETnPXOijTSuyYiF34hwdh84qAfsvjNbwHnfmPprn8adLJPJlRi9KtMNSqdUv3tBgtAZ6XfGwXQTvcZyQVKFisze0cq51N5gJu7nRQGGLqu9VZYiJ9oH3kdtZP6cqYObVg1HtpZzQ6WxHBjroI86sj+gu4yCuAySf/u0fN0TYBuGVGMYkh9EcoZL3FVhyhtiqPoIfVA0GSZ7hdqBKkEAj44+uIZwpt9KxOARfrtvO4ENd582LtHqLKvVOaFcp4RSA+0PFycyopyFyxpTlJG7gVdR3cx8eld76NsXPlbzkKm8d0sk8YmbQb1WuN+dbwbD/TGhZAy8fWS1IsF49/RNmZ8UeNjzNkKnmvv9x4n3TqAgiyfUa/MsnvJCOSiMU3/VBGnuE+QkezbdOjDMeXBH+0sWsR/M+BrlDwOykCKTZKN0jY15QUi2l+HpiNocScBh79Y0HLREUUBguY4Yk75DUjGUD9IqX/WYaxBEnXVUDFcoL39wcMITE048dT257c9oct+wT6aV3VWslhIo82KF3r/rc=
   on:
     tags: true
-    branch: master
+    repo: lk0606/npm_test_table
+  skip_cleanup: 'true'
