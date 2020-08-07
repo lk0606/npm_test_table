@@ -11,7 +11,7 @@
     "ra": "npm run release -- --prerelease alpha && npm run push",
     "rb": "npm run release -- --prerelease beta && npm run push",
     "rr": "npm run release -- --prerelease rc && npm run push",
-    "push": "git push --follow-tags origin master",
+    "push": "git push && git push --follow-tags origin master",
     "release": "standard-version"
   },
   "repository": {
