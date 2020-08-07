@@ -9,4 +9,4 @@ deploy:
   on:
     tags: true
     repo: lk0606/npm_test_table
-  skip_cleanup: 'true'
+  skip_cleanup: true
