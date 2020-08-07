@@ -1,12 +1,13 @@
 {
   "name": "iscroll_table",
-  "version": "1.0.10-alpha.0",
+  "version": "1.0.9",
   "description": "a table component for test npm packages",
   "main": "index.js",
   "files": [
     "src"
   ],
   "scripts": {
+    "fetchtag": "git tag | xargs -I {} git tag -d {} && git fetch --tags",
     "rm:tag": "git tag -l | xargs -n 1 git push --delete origin",
     "ra": "npm run release -- --prerelease alpha && npm run push",
     "rb": "npm run release -- --prerelease beta && npm run push",
