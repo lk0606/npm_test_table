@@ -1,6 +1,6 @@
 {
   "name": "iscroll_table",
-  "version": "1.0.9",
+  "version": "1.0.10-alpha.0",
   "description": "a table component for test npm packages",
   "main": "index.js",
   "files": [
