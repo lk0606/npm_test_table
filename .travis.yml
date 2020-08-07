@@ -3,9 +3,9 @@ node_js:
 - lts/*
 deploy:
   provider: npm
-  email: lklk06@163.com
+  email: $EMAIL
   api_key:
-    secure: jQtWC9INabEHr6mNhgFTKR8KpZWImGhOLJjbD34PAbbdgeARazME56NYamd2+qlFEWk9xf5gVkW/4Dyq+ofU/cKqQ2QWcZQ892bNRR2qkm7cCndytA5aIZymLsJC4s2q72NLg2EVvGsehW2fQj3WGzJCVJJNfJUB/1vj45702C/DWiK3eXfw6HQQ+WdGI+6UZ/gg6dHBNEGmiZ6W672IO+VVvDFyB49ddi86OAh6i1RKSaflNiPMfAE+r978AaV+yryzN4Yc0bux87xAJq+WsmDEoCu8a3KcvZv/2gSFpX0CPqPiq0XkTtCTrIy2ihrT+dYp20BidqoURvMcm7PF+IzyowmOTuOJgUv8QtgE5EYoCgvlmO2+TctOy+eVvIR/YVl9WS3icVpv/CbPWUpKzGAPZA151J+WNcIdLlVWFsZCHx+nf+tTbOTbn6Nzn0zFb1T0wEQ/SJYh9UDDj5A1/+Dpe+/mLW8RNKCqGdMSR9fLbvParsbgim6v3CG+NmK+YqwA/mvjqL6LZdkqDJxlswzIeoGLo0aLfMsK1iKHCmfkQX/A00QBqNU0L4/rR65muk40FSOtR+rkripsvefWtN69wm4ImIYLjfLknYrzghkD1fQ/CKE2EVC+FDaf0fhy+V3RCvEJLANgDKCfnmhP+HiddSopRxIyXN9NNfiMHH0=
+    secure: $NPM_TOKEN
   on:
     tags: true
     repo: lk0606/npm_test_table
